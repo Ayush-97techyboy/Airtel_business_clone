@@ -1,0 +1,612 @@
+* * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: auto;
+    /* width: 1100px; */
+    font-family: system-ui, sans-serif;
+    color: rgb(20, 17, 17);
+    background-color: rgb(240, 225, 238);
+  }
+
+  /* .setup-section {
+    padding: 20px;
+    /* margin-right: 450px; */
+  /* }  */
+
+.tile {
+        margin-top: 10px;
+	   margin-bottom: 10px;
+        /* display: flex; */
+	   /* flex-direction: column; */
+        flex-wrap: nowrap;
+        padding: 24px;
+  }
+
+
+.tile-body {
+    /* TODO: MODULE_CARDS */
+    /* 1. Fill in the required properties. */
+	display: flex;
+	flex-direction: row;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    /* transition: 0.6s all; */
+    background-color:azure;
+    box-shadow: #671d1d;
+    border-color: #9e0606;
+    /* padding: 10px; */
+    margin-bottom: 25px;
+
+
+	margin-top: 10px;
+	flex-wrap: nowrap;
+	padding: 24px;
+	gap: 20px;
+	/* -ms-flex-align: center; */
+	align-items: center;  
+  }
+  
+  
+  .tile img:hover {
+    /* TODO: MODULE_CARDS */
+    /* 1. Fill in the required properties. */
+    filter: brightness(50%);
+    transform: scale(1.1);
+  }
+  
+  .campaign {
+	   /* margin-top: 10px; */
+	   background-color: #dd2121;
+	   border-radius: 5px;
+	   color:#f7f4f4;
+	   padding: 8px;
+	   margin-right: 40px;
+  }
+  
+
+  .setupAcc {
+	background-color: #dd2121;
+	border: none !important;
+	border-radius: 5px;
+	color:#f7f4f4;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+  }
+
+  /* .optAvl {
+	background-color:#f7f4f4;
+  } */
+
+  select option {
+	background-color: #f7f4f4;
+	color: #9a9999;
+	border-color: antiquewhite;
+	border: 0px;
+	padding: 4px;
+  }
+
+  /* Hint: Notice the position:absolute and z-index properties. */
+  /* Think about how those in relation to the existing "tile" classes. */
+  
+  .tile-text {
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 1;
+    /* letter-spacing: 2px; */
+  }
+
+
+.btn {
+        border-radius: 1rem;
+        color: #9e0606;
+	   background-color: rgb(232, 236, 236);
+	   border-color: #9a9999;
+        font-weight: 700;
+        /* padding: 10px; */
+	   /* margin: 20px; */
+        display: ruby;
+    }
+
+  
+.bel-icn {
+
+    height: 25px; 
+    width: 25px;
+  }
+
+.dshB {
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+
+  .header-panel {
+	display: flex;
+	flex-direction:row ;
+	flex-wrap: nowrap;
+	padding-top: 20px;
+	padding-left: 20px;
+	/* padding-bottom: 0px; */
+	justify-content:space-between;
+	}
+
+
+
+  .user-details {
+	     display: flex;
+		flex-direction: row;
+		padding: 6px 12px;
+		justify-content:space-around;
+		align-items: center;
+		margin-bottom: 10px;
+		/* background-color: rgb(232, 236, 236); */
+		/* border: 1px solid rgba(0, 0, 0, 0.125); */
+		/* border-radius: 0.25rem; */
+		/* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6); */
+		white-space: nowrap;
+
+		
+  }
+
+  .wallet-img {
+	/* padding: 10px; */
+	height:30px;
+	width:30px;
+  }
+
+
+.user-panel {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 12px;
+    justify-content:space-around;
+}
+
+
+.user-panel2 {
+	display: flex;
+	flex-direction: row;
+	padding: 6px 12px;
+	justify-content:space-around;
+ }
+
+.profile {
+	display: flex;
+     flex-direction: row;
+     padding: 6px 12px;
+     justify-content:space-around;
+}
+ 
+.prof-icon {
+		font-family: Futura;
+		width: 45px;
+		padding: 12px;
+		border-radius: 50%;
+		background-color: #ff9797;
+		color: white;
+		font-size: 24px;
+		font-weight: 900;
+		line-height: 18px;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid #e38250;
+		position:absolute;
+  }
+
+  .slab-type {
+	background-color: #0a0909;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 1rem;
+	color: aliceblue;
+	padding-left: 17px;
+	padding-right: 17px;
+	position: relative;
+	margin-top: 35px;
+}
+
+  
+
+  .navbrhz {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #d1cdcd;
+    position: fixed;
+    padding: 15px;
+}
+
+
+.home {
+	margin-top: 55px;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #d1cdcd;
+}
+
+.options1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+
+}
+
+.option2 {
+     margin-top: 90px;
+     margin-bottom: 10px;
+	padding: 5px;
+
+}
+
+.options2 {
+	margin-top: 10px;
+     margin-bottom: 10px;
+	padding: 5px;
+
+}
+
+
+.vers {
+	margin-top: 20px;
+	font-size: x-small;
+	font-weight:700;
+}
+/* .send-message { 
+    display: flex;
+    flex-direction:column;
+} */
+
+.container {
+        display: flex;
+        flex-direction: column;
+        min-width: -webkit-fill-available;
+	   width:max-content;
+	   /* height: 20vh; */
+        margin-left: 65px;
+	   margin-bottom: 100px;
+}
+
+.leftsd, .rightsd {
+	/* margin-bottom: 150px; */
+	height: 100%;
+	width: 100% !important;
+}
+
+.leftsd {
+     background-color: #f5f0f0;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.rightsd {
+     background-color: #f5f0f0;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+
+@media screen  and (min-width: 768px) {
+	.leftsd, .rightsd {
+		height: 100vh;
+          width: 100% !important;
+		display: flex;
+	justify-content: center;
+	align-items:center;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.login-right {
+		padding-left: 50px;
+	 }
+}
+
+/* .setup, .message {
+	height: 100vh;
+	width: 100% !important;
+} */
+
+h1, h2, h5 {
+	display: flex;
+	flex-direction: row;
+	justify-content: left !important;
+	align-items: left !important;
+	text-align: left !important;
+	/* margin: 10px;
+	padding: 10px; */
+
+
+}
+
+.intro {
+	height: 250px;	
+     width: 100% 
+}
+
+
+/*------------ WhatsApp Page Styling ----------------*/
+
+
+.reach {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items:left !important;
+	padding: 15px;
+	border-radius: 1rem;
+	margin-bottom: 20px;
+}
+
+.progressbr {
+	background-color: white;
+	/* display: flex;
+	flex-direction: row; */
+	/* align-items:left !important; */
+	padding: 15px;
+	border-radius: 1rem;
+	margin-bottom: 20px;
+}
+
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+	/* flex-direction: row; */
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+ul li .icons {
+    font-size: 25px;
+    color: #198319;
+    margin: 0 60px;
+}
+
+ul li .labelBar {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1b761b;
+}
+
+ul li .step {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #d7d7c3;
+    margin: 16px 0 10px;
+    display: grid;
+    place-items: center;
+    color: ghostwhite;
+    position: relative;
+    cursor: pointer;
+}
+
+.step::after {
+    content: "";
+    position: absolute;
+    width: 197px;
+    height: 3px;
+    background-color: #d7d7c3;
+    right: 30px;
+}
+
+.first::after {
+    width: 0;
+    height: 0;
+}
+
+ul li .step .awesome {
+    display: flex;
+	flex-direction: row;
+}
+
+ul li .step p {
+    font-size: 18px;
+}
+
+ul li .active {
+    background-color: #1b761b;
+}
+
+li .active::after {
+    background-color: #1b761b;
+
+}
+
+ul li .active p {
+    display: none;
+}
+
+ul li .active .awesome {
+    display: flex;
+}
+
+.inputCamp {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items:left !important;
+	padding: 15px;
+	border-radius: 1rem;
+	margin-bottom: 20px;
+}
+
+.whtspConfig {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items:left !important;
+	padding: 15px;
+	border-radius: 1rem;
+	margin-bottom: 20px;
+	/* cursor: pointer; */
+}
+
+.navNext {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding: 30px;
+	border-radius: 1rem;
+}
+
+.nxtPg{
+ margin: 10px;
+ border-radius: 10px;
+ border: none;
+ color: rgb(225, 17, 17) !important;
+ background-color: white;
+ font-weight:bolder !important; 
+ cursor: pointer;
+}
+
+.nxtPg:hover {
+    background-color: rgb(225, 17, 17) !important;
+    color: white !important;
+}
+
+.nxtPg2{
+	margin: 10px;
+	border-radius: 1rem;
+	border: none; 
+	color: rgb(225, 17, 17) !important;
+	background-color:rgb(248, 246, 246);
+	font-weight:bolder !important; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+   }
+
+
+.wrapper {
+	position:relative;
+	/* padding-left: -24px; */
+	
+}
+
+input {
+		/* border: 1px solid gray; */
+		border-radius: 6px;
+		position: relative;
+		width: 500px;
+		margin: 10px;
+		line-height: 6ex;
+		padding-left: 14px;
+}
+
+label {
+		position: absolute;
+		top: 0.2ex;
+		z-index: 1;
+		left: 2em;
+		background-color: white;
+		padding: 0 5px;
+		border: 0px solid;
+		transition: .3s ease-in-out;
+	  }
+
+	  .reach p {
+		color:#9a9999;
+	  }
+	  .progressbr p{
+		color: #9a9999;
+	  }
+	  .inputCamp p{
+		color: #9a9999;
+	  }
+	  .whtspConfig p{
+		color: #9a9999;
+	  }
+	  .navNext p {
+		color:#9a9999;
+	  }
+
+	  .whtspBtn {
+		background-color:#dd2121;
+		color: #f5f0f0;
+		border-radius: 10px;
+		border: none;
+		padding: 10px;
+		margin-left: 0px;
+		cursor: pointer;
+	  }
+
+	  /* input:focus ~ label,
+      input:valid ~ label {
+        top: -0.8ex;} */ 
+
+	/* .inpuTTxt {
+		font-size: 14px;
+  width: 200px;
+  height: 35px;
+	}
+
+	.floating {
+		position: absolute;
+        top: 0.2ex;
+        z-index: 1;
+        left: 2em;
+        background-color: white;
+        padding: 0 5px;
+        border: 0px solid;
+        transition: .3s ease-in-out;
+	} */
+
+	
+/* .user-input-wrp {
+	position: relative;
+	width: 50%;
+}
+.user-input-wrp .inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #777;
+ 	box-shadow: none !important;
+}
+.user-input-wrp .inputText:focus{
+	border-color: blue;
+	border-width: medium medium 2px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 18px;
+	left: 10px;
+	transition: 0.2s ease all;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 0px;
+	left: 10px;
+	font-size: 13px;
+	opacity: 1;
+} */
+
